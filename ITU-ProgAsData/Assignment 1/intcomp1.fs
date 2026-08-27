@@ -67,7 +67,6 @@ let rec eval e (env: (string * int) list) : int =
 let test = Let([("x1",Prim("+",CstI 5, CstI 7));("x2", Prim("*", Var "x1", CstI 2))], Prim("+", Var "x1", Var "x2"))
 
 
-
 (*
 
 let run e = eval e [];;
@@ -224,11 +223,23 @@ let rec freevars e : string list =
     match e with
     | CstI i -> []
     | Var x  -> [x]
-    | Let(x, erhs, ebody) -> 
-          union (freevars erhs, minus (freevars ebody, [x]))
+    | Let (xs, ebody) ->
+            let rec aux (xs: (string * expr) list) (a:string list) (b: string list) : (string list * string list) =
+                match xs with
+                | [] -> (a,b)
+                | (x,e) :: xs ->
+                    let free = minus (freevars e, b)
+                    aux xs (union (free, a)) (x::b)
+            let a, b = aux xs [] []
+            union (a, minus (freevars ebody, b))
+        //union (freevars erhs, minus (freevars ebody, [x]))
     | Prim(ope, e1, e2) -> union (freevars e1, freevars e2);;
 
 (* Alternative definition of closed *)
+
+let test = Let([("x1",Prim("+",CstI 5, CstI 7));("x2", Prim("*", Var "x1", CstI 2))], Prim("+", Var "x1", Var "x2"))
+
+let test2 = Let([("x1", Prim("+", Var "x1", CstI 7))], Prim("+", Var "x1", CstI 8))
 
 let closed2 e = (freevars e = []);;
 let _ = List.map closed2 [e1;e2;e3;e4;e5;e6;e7;e8;e9;e10]
@@ -258,10 +269,29 @@ let rec tcomp (e : expr) (cenv : string list) : texpr =
     match e with
     | CstI i -> TCstI i
     | Var x  -> TVar (getindex cenv x)
-    | Let(x, erhs, ebody) -> 
-      let cenv1 = x :: cenv 
-      TLet(tcomp erhs cenv, tcomp ebody cenv1)
+    | Let(xs, ebody) ->
+        let rec aux xs cenv =
+            match xs with
+            | [] -> tcomp ebody cenv
+            | (x,e) :: xs ->
+                let cenv1 = x :: cenv
+                TLet(tcomp e cenv, aux xs cenv1)
+        aux xs cenv
     | Prim(ope, e1, e2) -> TPrim(ope, tcomp e1 cenv, tcomp e2 cenv);;
+
+let test3 =
+    Let(
+        [("x1", CstI 5);
+         ("x2", Prim("*", Var "x1", CstI 2))],
+        Prim("+", Var "x1", Var "x2")
+    )
+    
+let test4 =
+    Let(
+        [("x1", Prim("+", Var "x1", CstI 7))],
+        Prim("+", Var "x1", CstI 8)
+    )
+// Fails
 
 (* Evaluation of target expressions with variable indexes.  The
    run-time environment renv is a list of variable values (ints).  *)
