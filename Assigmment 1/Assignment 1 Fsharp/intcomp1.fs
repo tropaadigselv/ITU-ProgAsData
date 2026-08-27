@@ -64,7 +64,7 @@ let rec eval e (env: (string * int) list) : int =
     | Prim("-", e1, e2) -> eval e1 env - eval e2 env
     | Prim _            -> failwith "unknown primitive";;
  
-let test = Let([("x1",Prim("+",CstI 5, CstI 7));("x2", Prim("*", Var "x1", CstI 2))], Prim("+", Var "x1", Var "x2"))
+let test0 = Let([("x1",Prim("+",CstI 5, CstI 7));("x2", Prim("*", Var "x1", CstI 2))], Prim("+", Var "x1", Var "x2"))
 
 
 (*
@@ -242,7 +242,7 @@ let test = Let([("x1",Prim("+",CstI 5, CstI 7));("x2", Prim("*", Var "x1", CstI 
 let test2 = Let([("x1", Prim("+", Var "x1", CstI 7))], Prim("+", Var "x1", CstI 8))
 
 let closed2 e = (freevars e = []);;
-let _ = List.map closed2 [e1;e2;e3;e4;e5;e6;e7;e8;e9;e10]
+//let _ = List.map closed2 [e1;e2;e3;e4;e5;e6;e7;e8;e9;e10]
 
 (* ---------------------------------------------------------------------- *)
 

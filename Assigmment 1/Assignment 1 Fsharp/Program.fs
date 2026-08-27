@@ -1,2 +1,4 @@
-﻿// For more information see https://aka.ms/fsharp-console-apps
+﻿module Assignment_1.Program
+
+// For more information see https://aka.ms/fsharp-console-apps
 printfn "Hello from F#"

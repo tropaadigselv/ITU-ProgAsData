@@ -113,11 +113,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\nikol\\OneDrive - ITU\\4 Sem. Obsidian\\5. Semester\\Programmer som Data\\99 Assignments\\ITU-ProgAsData\\Assignment 1\\Assignment 1.fsproj",
+      "projectUniqueName": "C:\\Users\\nikol\\OneDrive - ITU\\4 Sem. Obsidian\\5. Semester\\Programmer som Data\\99 Assignments\\Assigmment 1\\Assignment 1 Fsharp\\Assignment 1.fsproj",
       "projectName": "Assignment 1",
-      "projectPath": "C:\\Users\\nikol\\OneDrive - ITU\\4 Sem. Obsidian\\5. Semester\\Programmer som Data\\99 Assignments\\ITU-ProgAsData\\Assignment 1\\Assignment 1.fsproj",
+      "projectPath": "C:\\Users\\nikol\\OneDrive - ITU\\4 Sem. Obsidian\\5. Semester\\Programmer som Data\\99 Assignments\\Assigmment 1\\Assignment 1 Fsharp\\Assignment 1.fsproj",
       "packagesPath": "C:\\Users\\nikol\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\nikol\\OneDrive - ITU\\4 Sem. Obsidian\\5. Semester\\Programmer som Data\\99 Assignments\\ITU-ProgAsData\\Assignment 1\\obj\\",
+      "outputPath": "C:\\Users\\nikol\\OneDrive - ITU\\4 Sem. Obsidian\\5. Semester\\Programmer som Data\\99 Assignments\\Assigmment 1\\Assignment 1 Fsharp\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\nikol\\AppData\\Roaming\\NuGet\\NuGet.Config"

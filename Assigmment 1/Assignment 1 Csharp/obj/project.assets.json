@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\nikol\\OneDrive - ITU\\4 Sem. Obsidian\\5. Semester\\Programmer som Data\\99 Assignments\\ITU-ProgAsData\\Assignment 1 Csharp\\Assignment 1 Csharp.csproj",
+      "projectUniqueName": "C:\\Users\\nikol\\OneDrive - ITU\\4 Sem. Obsidian\\5. Semester\\Programmer som Data\\99 Assignments\\Assigmment 1\\Assignment 1 Csharp\\Assignment 1 Csharp.csproj",
       "projectName": "Assignment 1 Csharp",
-      "projectPath": "C:\\Users\\nikol\\OneDrive - ITU\\4 Sem. Obsidian\\5. Semester\\Programmer som Data\\99 Assignments\\ITU-ProgAsData\\Assignment 1 Csharp\\Assignment 1 Csharp.csproj",
+      "projectPath": "C:\\Users\\nikol\\OneDrive - ITU\\4 Sem. Obsidian\\5. Semester\\Programmer som Data\\99 Assignments\\Assigmment 1\\Assignment 1 Csharp\\Assignment 1 Csharp.csproj",
       "packagesPath": "C:\\Users\\nikol\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\nikol\\OneDrive - ITU\\4 Sem. Obsidian\\5. Semester\\Programmer som Data\\99 Assignments\\ITU-ProgAsData\\Assignment 1 Csharp\\obj\\",
+      "outputPath": "C:\\Users\\nikol\\OneDrive - ITU\\4 Sem. Obsidian\\5. Semester\\Programmer som Data\\99 Assignments\\Assigmment 1\\Assignment 1 Csharp\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\nikol\\AppData\\Roaming\\NuGet\\NuGet.Config"
