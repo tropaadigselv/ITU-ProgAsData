@@ -1,4 +1,8 @@
-﻿# Exercise 3.2
+﻿# Exercises 2.4, 2.5
+
+See the bottom of Intcomp1.fs.
+
+# Exercise 3.2
 
 _Write a regular expression that recognizes all sequences consisting of a and b where two a’s are always separated by at least one b._
 
