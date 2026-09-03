@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "BRBd1YvoQgY=",
+  "success": true,
+  "projectFilePath": "C:\\Storage\\ITU\\5 Sem. Programmer som Data\\ITU-ProgAsData\\Assignment 2\\Assignment 2.fsproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\nikol\\.nuget\\packages\\fsharp.core\\10.0.111\\fsharp.core.10.0.111.nupkg.sha512"
+  ],
+  "logs": []
+}
