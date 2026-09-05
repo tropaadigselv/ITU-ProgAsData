@@ -1,0 +1,21 @@
+﻿3.2
+^(b|ab)*a?$
+for NFA see ./exercise32.png
+
+3.3
+Write out the rightmost derivation of "let z = (17) in z + 2 * 3 end EOF"
+
+Main
+A  Expr EOF
+F  LET NAME EQ Expr IN Expr END EOF
+H  LET NAME EQ Expr IN Expr PLUS Expr END EOF
+G  LET NAME EQ Expr IN Expr PLUS Expr TIMES Expr END EOF            //resolve right Expr first 
+C  LET NAME EQ Expr IN Expr PLUS Expr TIMES CSTINT END EOF          //then the second from right    
+C  LET NAME EQ Expr IN Expr PLUS CSTINT TIMES CSTINT END EOF
+B  LET NAME EQ Expr IN NAME PLUS CSTINT TIMES CSTINT END EOF
+E  LET NAME EQ LPAR Expr RPAR IN NAME PLUS CSTINT TIMES CSTINT END EOF
+C  LET NAME EQ LPAR CSTINT RPAR IN NAME PLUS CSTINT TIMES CSTINT END EOF
+
+
+3.4 
+see ./exercise34.png
