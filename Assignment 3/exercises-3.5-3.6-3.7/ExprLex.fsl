@@ -19,6 +19,9 @@ let keyword s =
     | "let" -> LET
     | "in"  -> IN
     | "end" -> END
+    | "if" -> IF        (* 'if' finder   *)
+    | "then" -> THEN    (* 'then' finder *)
+    | "else" -> ELSE    (* 'else' finder *)
     | _     -> NAME s
 }
 

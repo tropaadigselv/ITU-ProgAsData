@@ -37,5 +37,6 @@ let fromFile (filename : string) =
 let ex = fromString "2 + 3 * 4"
 
 
+(* exercise 3.6 *)
 let compString (str: string) =
     scomp (fromString str) []
