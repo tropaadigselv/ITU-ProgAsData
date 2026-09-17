@@ -7,7 +7,108 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="66a207e5-3e5b-4b51-9a70-617e82d1ba33" name="Changes" comment="" />
+    <list default="true" id="66a207e5-3e5b-4b51-9a70-617e82d1ba33" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/../Assigmment 1/Assignment 1 Csharp/.idea/.idea.Assignment 1 Csharp/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Assigmment 1/Assignment 1 Csharp/.idea/.idea.Assignment 1 Csharp/.idea/encodings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Assigmment 1/Assignment 1 Csharp/.idea/.idea.Assignment 1 Csharp/.idea/indexLayout.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Assigmment 1/Assignment 1 Csharp/.idea/.idea.Assignment 1 Csharp/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Assigmment 1/Assignment 1 Csharp/Assignment 1 Csharp.csproj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Assigmment 1/Assignment 1 Csharp/Assignment 1 Csharp.sln" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Assigmment 1/Assignment 1 Csharp/Program.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Assigmment 1/Assignment 1 Csharp/bin/Debug/net10.0/Assignment 1 Csharp.deps.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Assigmment 1/Assignment 1 Csharp/bin/Debug/net10.0/Assignment 1 Csharp.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Assigmment 1/Assignment 1 Csharp/bin/Debug/net10.0/Assignment 1 Csharp.exe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Assigmment 1/Assignment 1 Csharp/bin/Debug/net10.0/Assignment 1 Csharp.pdb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Assigmment 1/Assignment 1 Csharp/bin/Debug/net10.0/Assignment 1 Csharp.runtimeconfig.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Assigmment 1/Assignment 1 Csharp/obj/Assignment 1 Csharp.csproj.nuget.dgspec.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Assigmment 1/Assignment 1 Csharp/obj/Assignment 1 Csharp.csproj.nuget.g.props" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Assigmment 1/Assignment 1 Csharp/obj/Assignment 1 Csharp.csproj.nuget.g.targets" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Assigmment 1/Assignment 1 Csharp/obj/Debug/net10.0/.NETCoreApp,Version=v10.0.AssemblyAttributes.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Assigmment 1/Assignment 1 Csharp/obj/Debug/net10.0/Assignment 1 Csharp.AssemblyInfo.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Assigmment 1/Assignment 1 Csharp/obj/Debug/net10.0/Assignment 1 Csharp.AssemblyInfoInputs.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Assigmment 1/Assignment 1 Csharp/obj/Debug/net10.0/Assignment 1 Csharp.GeneratedMSBuildEditorConfig.editorconfig" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Assigmment 1/Assignment 1 Csharp/obj/Debug/net10.0/Assignment 1 Csharp.GlobalUsings.g.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Assigmment 1/Assignment 1 Csharp/obj/Debug/net10.0/Assignment 1 Csharp.assets.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Assigmment 1/Assignment 1 Csharp/obj/Debug/net10.0/Assignment 1 Csharp.csproj.CoreCompileInputs.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Assigmment 1/Assignment 1 Csharp/obj/Debug/net10.0/Assignment 1 Csharp.csproj.FileListAbsolute.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Assigmment 1/Assignment 1 Csharp/obj/Debug/net10.0/Assignment 1 Csharp.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Assigmment 1/Assignment 1 Csharp/obj/Debug/net10.0/Assignment 1 Csharp.genruntimeconfig.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Assigmment 1/Assignment 1 Csharp/obj/Debug/net10.0/Assignment 1 Csharp.pdb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Assigmment 1/Assignment 1 Csharp/obj/Debug/net10.0/Assignment 1 Csharp.sourcelink.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Assigmment 1/Assignment 1 Csharp/obj/Debug/net10.0/apphost.exe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Assigmment 1/Assignment 1 Csharp/obj/Debug/net10.0/ref/Assignment 1 Csharp.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Assigmment 1/Assignment 1 Csharp/obj/Debug/net10.0/refint/Assignment 1 Csharp.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Assigmment 1/Assignment 1 Csharp/obj/project.assets.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Assigmment 1/Assignment 1 Csharp/obj/project.nuget.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Assigmment 1/Assignment 1 Csharp/obj/project.packagespec.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Assigmment 1/Assignment 1 Csharp/obj/rider.project.model.nuget.info" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Assigmment 1/Assignment 1 Csharp/obj/rider.project.restore.info" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Assigmment 1/Assignment 1 Fsharp/.idea/.idea.Assignment 1/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Assigmment 1/Assignment 1 Fsharp/.idea/.idea.Assignment 1/.idea/.name" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Assigmment 1/Assignment 1 Fsharp/.idea/.idea.Assignment 1/.idea/encodings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Assigmment 1/Assignment 1 Fsharp/.idea/.idea.Assignment 1/.idea/indexLayout.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Assigmment 1/Assignment 1 Fsharp/.idea/.idea.Assignment 1/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Assigmment 1/Assignment 1 Fsharp/Assignment 1.fsproj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Assigmment 1/Assignment 1 Fsharp/Assignment 1.sln" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Assigmment 1/Assignment 1 Fsharp/Program.fs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Assigmment 1/Assignment 1 Fsharp/bin/Debug/net10.0/Assignment 1.deps.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Assigmment 1/Assignment 1 Fsharp/bin/Debug/net10.0/Assignment 1.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Assigmment 1/Assignment 1 Fsharp/bin/Debug/net10.0/Assignment 1.exe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Assigmment 1/Assignment 1 Fsharp/bin/Debug/net10.0/Assignment 1.pdb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Assigmment 1/Assignment 1 Fsharp/bin/Debug/net10.0/Assignment 1.runtimeconfig.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Assigmment 1/Assignment 1 Fsharp/bin/Debug/net10.0/FSharp.Core.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Assigmment 1/Assignment 1 Fsharp/bin/Debug/net10.0/cs/FSharp.Core.resources.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Assigmment 1/Assignment 1 Fsharp/bin/Debug/net10.0/de/FSharp.Core.resources.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Assigmment 1/Assignment 1 Fsharp/bin/Debug/net10.0/es/FSharp.Core.resources.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Assigmment 1/Assignment 1 Fsharp/bin/Debug/net10.0/fr/FSharp.Core.resources.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Assigmment 1/Assignment 1 Fsharp/bin/Debug/net10.0/it/FSharp.Core.resources.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Assigmment 1/Assignment 1 Fsharp/bin/Debug/net10.0/ja/FSharp.Core.resources.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Assigmment 1/Assignment 1 Fsharp/bin/Debug/net10.0/ko/FSharp.Core.resources.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Assigmment 1/Assignment 1 Fsharp/bin/Debug/net10.0/pl/FSharp.Core.resources.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Assigmment 1/Assignment 1 Fsharp/bin/Debug/net10.0/pt-BR/FSharp.Core.resources.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Assigmment 1/Assignment 1 Fsharp/bin/Debug/net10.0/ru/FSharp.Core.resources.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Assigmment 1/Assignment 1 Fsharp/bin/Debug/net10.0/tr/FSharp.Core.resources.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Assigmment 1/Assignment 1 Fsharp/bin/Debug/net10.0/zh-Hans/FSharp.Core.resources.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Assigmment 1/Assignment 1 Fsharp/bin/Debug/net10.0/zh-Hant/FSharp.Core.resources.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Assigmment 1/Assignment 1 Fsharp/intcomp1.fs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Assigmment 1/Assignment 1 Fsharp/intro2.fs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Assigmment 1/Assignment 1 Fsharp/obj/Assignment 1.fsproj.nuget.dgspec.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Assigmment 1/Assignment 1 Fsharp/obj/Assignment 1.fsproj.nuget.g.props" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Assigmment 1/Assignment 1 Fsharp/obj/Assignment 1.fsproj.nuget.g.targets" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Assigmment 1/Assignment 1 Fsharp/obj/Debug/net10.0/.NETCoreApp,Version=v10.0.AssemblyAttributes.fs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Assigmment 1/Assignment 1 Fsharp/obj/Debug/net10.0/Assignme.9F85BD87.Up2Date" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Assigmment 1/Assignment 1 Fsharp/obj/Debug/net10.0/Assignment 1.AssemblyInfo.fs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Assigmment 1/Assignment 1 Fsharp/obj/Debug/net10.0/Assignment 1.AssemblyInfoInputs.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Assigmment 1/Assignment 1 Fsharp/obj/Debug/net10.0/Assignment 1.assets.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Assigmment 1/Assignment 1 Fsharp/obj/Debug/net10.0/Assignment 1.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Assigmment 1/Assignment 1 Fsharp/obj/Debug/net10.0/Assignment 1.fsproj.AssemblyReference.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Assigmment 1/Assignment 1 Fsharp/obj/Debug/net10.0/Assignment 1.fsproj.CoreCompileInputs.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Assigmment 1/Assignment 1 Fsharp/obj/Debug/net10.0/Assignment 1.fsproj.FileListAbsolute.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Assigmment 1/Assignment 1 Fsharp/obj/Debug/net10.0/Assignment 1.genruntimeconfig.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Assigmment 1/Assignment 1 Fsharp/obj/Debug/net10.0/Assignment 1.pdb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Assigmment 1/Assignment 1 Fsharp/obj/Debug/net10.0/Assignment 1.sourcelink.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Assigmment 1/Assignment 1 Fsharp/obj/Debug/net10.0/ILLink.Substitutions.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Assigmment 1/Assignment 1 Fsharp/obj/Debug/net10.0/apphost.exe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Assigmment 1/Assignment 1 Fsharp/obj/Debug/net10.0/ref/Assignment 1.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Assigmment 1/Assignment 1 Fsharp/obj/Debug/net10.0/refint/Assignment 1.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Assigmment 1/Assignment 1 Fsharp/obj/project.assets.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Assigmment 1/Assignment 1 Fsharp/obj/project.nuget.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Assigmment 1/Assignment 1 Fsharp/obj/project.packagespec.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Assigmment 1/Assignment 1 Fsharp/obj/rider.project.model.nuget.info" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Assigmment 1/Assignment 1 Fsharp/obj/rider.project.restore.info" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Assigmment 1/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Assignment 2/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Assignment 2/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/Assignment 2.fsproj.nuget.dgspec.json" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Assignment 2.fsproj.nuget.dgspec.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/Assignment 2.fsproj.nuget.g.props" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Assignment 2.fsproj.nuget.g.props" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/Debug/net10.0/Assignment 2.AssemblyInfo.fs" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/net10.0/Assignment 2.AssemblyInfo.fs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/Debug/net10.0/Assignment 2.AssemblyInfoInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/net10.0/Assignment 2.AssemblyInfoInputs.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/Debug/net10.0/Assignment 2.assets.cache" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/net10.0/Assignment 2.assets.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/Debug/net10.0/Assignment 2.fsproj.AssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/net10.0/Assignment 2.fsproj.AssemblyReference.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/project.assets.json" beforeDir="false" afterPath="$PROJECT_DIR$/obj/project.assets.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/project.nuget.cache" beforeDir="false" afterPath="$PROJECT_DIR$/obj/project.nuget.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/project.packagespec.json" beforeDir="false" afterPath="$PROJECT_DIR$/obj/project.packagespec.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/rider.project.restore.info" beforeDir="false" afterPath="$PROJECT_DIR$/obj/rider.project.restore.info" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -16,44 +117,44 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
-  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
-  "lastFilter": {
-    "state": "OPEN",
-    "assignee": "Gartneriet"
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;Gartneriet&quot;
   }
-}]]></component>
-  <component name="GithubPullRequestsUISettings"><![CDATA[{
-  "selectedUrlAndAccountId": {
-    "url": "https://github.com/tropaadigselv/ITU-ProgAsData.git",
-    "accountId": "2535d9c7-3405-4123-a843-24d290415525"
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/tropaadigselv/ITU-ProgAsData.git&quot;,
+    &quot;accountId&quot;: &quot;2535d9c7-3405-4123-a843-24d290415525&quot;
   }
-}]]></component>
+}</component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/Intcomp1.fs" root0="FORCE_HIGHLIGHTING" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 2
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 2
+}</component>
   <component name="ProjectId" id="3IoIUkiBKUYud3JObqRMd5opDDl" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ModuleVcsDetector.initialDetectionPerformed": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "git-widget-placeholder": "main",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RunManager">
     <configuration name="Assignment 2" type="DotNetProject" factoryName=".NET Project">
       <option name="EXE_PATH" value="" />
@@ -87,6 +188,7 @@
       <option name="presentableId" value="Default" />
       <updated>1788424513230</updated>
       <workItem from="1788424515243" duration="6061000" />
+      <workItem from="1789634375004" duration="257000" />
     </task>
     <servers />
   </component>
