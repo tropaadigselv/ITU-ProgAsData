@@ -1,12 +1,4 @@
-# 4.5
-
-See `Exercise 4.5\FunLex.fsl` and `Exercise 4.5\FunPar.fsy`.
-
-# 5.7
-
-See `Exercise 5.7\TypedFun.fs`
-
-## 6.1
+﻿## 6.1
 
 For program 3, the inner 'let' call shadows the variable x and assigns it to 77, however as addTwo 5 is resolved giving ``Int 5``, we move out a level and the env stored within in closure is discarded
 
