@@ -111,6 +111,7 @@ Expressions
 Note: Stmt (...) just wraps each item inside a Block (a block item is either a statement or a local declaration).
 
 # Exercise 7.2
+note: the for loops implemented in 7.3 is used in the answering of these exercises. The exercise description of 7.2 hints at this being a viable option, so I assume it's allowed.
 
 ## (i)
 ```c
