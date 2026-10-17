@@ -1,0 +1,51 @@
+public static void SelectionSort(int[]);
+  descriptor: ([I)V                              // method type: takes int[] ([I), returns void (V)
+  flags: (0x0009) ACC_PUBLIC, ACC_STATIC
+  Code:
+    stack=4, locals=4, args_size=1               // like .maxstack 4; locals=4 INCLUDES the argument arr (slot 0)
+                                                 // slots: 0 = arr, 1 = i, 2 = least, 3 = j (later reused for tmp)
+
+     0: iconst_0                                 // push int 0
+     1: istore_1                                 // i initialized
+     2: iload_1                                  // outer loop cond at the top (javac style, unlike C#)
+     3: aload_0                                  // ld arr (a = reference, the JVM's typed load for objects/arrays)
+     4: arraylength                              // pop arr, push length (already an int, so no conv needed)
+     5: if_icmpge     57                         // exit loop if i >= arr.length, i.e. inverted condition
+     8: iload_1
+     9: istore_2                                 // least initialized
+    10: iload_1
+    11: iconst_1
+    12: iadd
+    13: istore_3                                 // j initialized as i+1
+    14: iload_3                                  // inner loop cond at the top
+    15: aload_0
+    16: arraylength
+    17: if_icmpge     37                         // exit inner loop if j >= arr.length
+    20: aload_0                                  // ld arr
+    21: iload_3                                  // ld j
+    22: iaload                                   // arr[j], arr and idx popped (= ldelem.i4)
+    23: aload_0                                  // ld arr
+    24: iload_2                                  // ld least
+    25: iaload                                   // arr[least]
+    26: if_icmpge     31                         // if-statement: skip body if arr[j] >= arr[least]
+    29: iload_3                                  // ld j
+    30: istore_2                                 // put j in least
+    31: iinc          3, 1                       // j++: adds 1 directly to slot 3, never touches the stack
+    34: goto          14                         // jump back UP to the inner condition
+    37: aload_0                                  // arr
+    38: iload_1                                  // i
+    39: iaload                                   // arr[i]
+    40: istore_3                                 // tmp = arr[i], reuses slot 3 since j's scope has ended
+    41: aload_0                                  // arr
+    42: iload_1                                  // i
+    43: aload_0                                  // arr
+    44: iload_2                                  // least
+    45: iaload                                   // arr[least]
+    46: iastore                                  // arr[i] = arr[least], pops value, index, array (= stelem.i4)
+    47: aload_0
+    48: iload_2
+    49: iload_3                                  // tmp
+    50: iastore                                  // arr[least] = tmp
+    51: iinc          1, 1                       // i++
+    54: goto          2                          // jump back UP to the outer condition
+    57: return                                   // = ret
