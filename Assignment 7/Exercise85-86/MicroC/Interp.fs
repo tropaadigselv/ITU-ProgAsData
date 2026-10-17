@@ -195,6 +195,9 @@ and eval e locEnv gloEnv store : int * store =
       let (i1, store1) as res = eval e1 locEnv gloEnv store
       if i1<>0 then res else eval e2 locEnv gloEnv store1
     | Call(f, es) -> callfun f es locEnv gloEnv store 
+    | CondExpr(e1, e2, e3) ->
+      let (e1res, store1) = eval e1 locEnv gloEnv store
+      if e1res<>0 then (eval e2 locEnv gloEnv store1) else (eval e3 locEnv gloEnv store1)
 
 and access acc locEnv gloEnv store : int * store = 
     match acc with 
