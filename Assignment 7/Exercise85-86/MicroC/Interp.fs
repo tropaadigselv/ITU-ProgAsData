@@ -142,6 +142,17 @@ let rec exec stmt (locEnv : locEnv) (gloEnv : gloEnv) (store : store) : store =
           | [ ] -> store
           | s1::sr -> loop sr (stmtordec s1 locEnv gloEnv store)
       loop stmts (locEnv, store) 
+    | Switch(e, cases) ->
+      // Evaluate the condition expr
+      let (v, store1) = eval e locEnv gloEnv store
+      let rec loop cases store =
+          match cases with
+          | [] -> store // Check if cases left - if no return store1
+          | (c, stmt)::rest -> 
+              if c = v // Check if case's int matches v - if yes execute stmt with store1
+              then exec stmt locEnv gloEnv store
+              else loop rest store // Otherwise, search remaining cases
+      loop cases store1
     | Return _ -> failwith "return not implemented"
 
 and stmtordec stmtordec locEnv gloEnv store = 

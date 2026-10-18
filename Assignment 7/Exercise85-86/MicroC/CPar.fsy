@@ -14,7 +14,7 @@ let nl = CstI 10
 %token <int> CSTINT CSTBOOL
 %token <string> CSTSTRING NAME
 
-%token CHAR ELSE IF INT NULL PRINT PRINTLN RETURN VOID WHILE
+%token CHAR ELSE IF INT NULL PRINT PRINTLN RETURN VOID WHILE SWITCH CASE
 %token PLUS MINUS TIMES DIV MOD
 %token EQ NE GT LT GE LE
 %token NOT SEQOR SEQAND
@@ -84,6 +84,12 @@ Block:
     LBRACE StmtOrDecSeq RBRACE          { Block $2 }
 ;
 
+Cases:
+    /* empty */                         { [] }
+  | CASE INT COLON Block                { [($2, $4)] }
+  | CASE INT COLON Block Cases          { ($2, $4) :: $5 }
+;
+
 StmtOrDecSeq:
     /* empty */                         { [] }
   | Stmt StmtOrDecSeq                   { Stmt $1 :: $2 }
@@ -102,6 +108,7 @@ StmtM:  /* No unbalanced if-else */
   | Block                               { $1                   }
   | IF LPAR Expr RPAR StmtM ELSE StmtM  { If($3, $5, $7)       }
   | WHILE LPAR Expr RPAR StmtM          { While($3, $5)        }
+  | SWITCH LPAR Expr RPAR LBRACE Cases RBRACE { Switch($3, $5)       }
 ;
 
 StmtU:
