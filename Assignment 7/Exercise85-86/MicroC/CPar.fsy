@@ -86,8 +86,8 @@ Block:
 
 Cases:
     /* empty */                         { [] }
-  | CASE INT COLON Block                { [($2, $4)] }
-  | CASE INT COLON Block Cases          { ($2, $4) :: $5 }
+  | CASE CSTINT COLON Block             { [($2, $4)] }
+  | CASE CSTINT COLON Block Cases       { ($2, $4) :: $5 }
 ;
 
 StmtOrDecSeq:
@@ -108,7 +108,7 @@ StmtM:  /* No unbalanced if-else */
   | Block                               { $1                   }
   | IF LPAR Expr RPAR StmtM ELSE StmtM  { If($3, $5, $7)       }
   | WHILE LPAR Expr RPAR StmtM          { While($3, $5)        }
-  | SWITCH LPAR Expr RPAR LBRACE Cases RBRACE { Switch($3, $5)       }
+  | SWITCH LPAR Expr RPAR LBRACE Cases RBRACE { Switch($3, $6) }
 ;
 
 StmtU:
