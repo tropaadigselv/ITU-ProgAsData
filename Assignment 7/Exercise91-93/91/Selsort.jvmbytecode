@@ -1,5 +1,5 @@
 public static void SelectionSort(int[]);
-  descriptor: ([I)V                              // method type: takes int[] ([I), returns void (V)
+  descriptor: ([I)V                             
   flags: (0x0009) ACC_PUBLIC, ACC_STATIC
   Code:
     stack=4, locals=4, args_size=1               // like .maxstack 4; locals=4 INCLUDES the argument arr (slot 0)
@@ -7,7 +7,7 @@ public static void SelectionSort(int[]);
 
      0: iconst_0                                 // push int 0
      1: istore_1                                 // i initialized
-     2: iload_1                                  // outer loop cond at the top (javac style, unlike C#)
+     2: iload_1                                  // outer loop cond at the top (unlike C#)
      3: aload_0                                  // ld arr (a = reference, the JVM's typed load for objects/arrays)
      4: arraylength                              // pop arr, push length (already an int, so no conv needed)
      5: if_icmpge     57                         // exit loop if i >= arr.length, i.e. inverted condition
@@ -31,7 +31,7 @@ public static void SelectionSort(int[]);
     29: iload_3                                  // ld j
     30: istore_2                                 // put j in least
     31: iinc          3, 1                       // j++: adds 1 directly to slot 3, never touches the stack
-    34: goto          14                         // jump back UP to the inner condition
+    34: goto          14                         // jump back up to the inner condition
     37: aload_0                                  // arr
     38: iload_1                                  // i
     39: iaload                                   // arr[i]
@@ -47,5 +47,5 @@ public static void SelectionSort(int[]);
     49: iload_3                                  // tmp
     50: iastore                                  // arr[least] = tmp
     51: iinc          1, 1                       // i++
-    54: goto          2                          // jump back UP to the outer condition
+    54: goto          2                          // jump back up to the outer condition
     57: return                                   // = ret
